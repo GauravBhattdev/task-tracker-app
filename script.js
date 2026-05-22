@@ -45,7 +45,7 @@ function addTask() {
 
     showToast("Task Added");
 }
-
+// add task feature completed
 function renderTasks() {
 
     taskList.innerHTML = "";
