@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task tracker</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      
+      <header>
+        <h1>Task Trackers</h1>
+        <button id="themeToggle"></button>
+      </header>
+
+      
+      <div class="task-input">
+        <input type="text" id="taskInput" placeholder="Enter your task" />
+
+        <select id="priority">
+          <option value="Low">Low</option>
+          <option value="Medium">Medium</option>
+          <option value="High">High</option>
+        </select>
+
+        <button id="addTaskBtn">
+          Add Task
+        </button>
+      </div>
+
+     
+      <div class="search-box">
+        <input type="text" id="searchInput" placeholder="SearchTasks" />
+      </div>
+     
+      <div class="task-stats">
+        <p>completed : <span id="completedCount">0</span></p>
+        <p>Pending : <span id="pendingCount">0</span></p>
+      </div>
+
+      
+     
+      <ul id="taskList"></ul>
+      
+    </div>
+
+    
+    <div id="toast">
+
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
