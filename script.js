@@ -119,7 +119,7 @@ function deleteTask(id) {
 
     showToast("Task Deleted");
 }
-
+ // delete task completed
 function editTask(id) {
 
     const task = tasks.find(task => task.id === id);
