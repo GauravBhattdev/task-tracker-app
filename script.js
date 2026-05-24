@@ -136,7 +136,7 @@ function editTask(id) {
         showToast("Task Updated");
     }
 }
-
+// Search feature completed
 function updateCounters() {
 
     const completedTasks = tasks.filter(task => task.completed).length;
