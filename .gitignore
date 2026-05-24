@@ -1,0 +1,12 @@
+node_modules/
+
+# Logs
+*.log
+
+# VS Code settings
+.vscode/
+
+# OS file
+
+# Environment files
+.env
