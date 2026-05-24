@@ -116,7 +116,7 @@ button {
 .dark-mode .container {
     background: #1f1f1f;
 }
-
+/*  Dark mode feature completed */
 #toast {
     position: fixed;
     bottom: 20px;
