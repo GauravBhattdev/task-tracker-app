@@ -10,7 +10,7 @@ const priorityInput = document.getElementById("priority");
 let tasks = JSON.parse(localStorage.getItem("tasks")) || [];
 
 let appTheme = "light"
-
+let app = "dark"
 
 
 
