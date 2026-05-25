@@ -7,7 +7,7 @@ A responsive  task management web application built  using HTML , CSS and JavaSc
 
 ### Add Task 
 Users can dynamically add tasks  to the tracker.
-
+# You can add only task at one time
 
 ### Delete Task
 Tasks can be removed individually.
