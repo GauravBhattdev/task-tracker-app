@@ -119,6 +119,7 @@ function deleteTask(id) {
 
     showToast("Task Deleted");
 }
+//new task added
  // delete task completed
 function editTask(id) {
 
