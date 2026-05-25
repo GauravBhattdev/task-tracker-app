@@ -8,7 +8,7 @@ const pendingCount = document.getElementById("pendingCount");
 const priorityInput = document.getElementById("priority");
 
 let tasks = JSON.parse(localStorage.getItem("tasks")) || [];
-
+let appTheme = "Dark"
 renderTasks();
 
 addTaskBtn.addEventListener("click", addTask);
